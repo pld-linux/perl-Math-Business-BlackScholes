@@ -1,6 +1,6 @@
 #
 # Conditional build:
-# _without_tests - do not perform "make test"
+%bcond_without tests # do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Math
@@ -8,12 +8,12 @@
 Summary:	Math::Business::BlackScholes - Black-Scholes option price model functions
 Summary(pl):	Math::Business::BlackScholes - funkcje modelu cenowego Black-Scholes
 Name:		perl-Math-Business-BlackScholes
-Version:	0.05
+Version:	0.06
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	26a43f551e85da0401af0c03d1ffbe70
+# Source0-md5:	d49d2e8231b0ed36c6fd17fc31e4b7a5
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Math-CDF >= 0.1
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -36,7 +36,7 @@ opcji na akcje zgodnie z modelem Black-Scholes.
 	INSTALLDIRS=vendor
 %{__make}
 
-%{!?_without_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
