@@ -10,7 +10,8 @@ Summary(pl):	Math::Business::BlackScholes - funkcje modelu cenowego Black-Schole
 Name:		perl-Math-Business-BlackScholes
 Version:	0.06
 Release:	1
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d49d2e8231b0ed36c6fd17fc31e4b7a5
