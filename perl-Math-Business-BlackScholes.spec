@@ -8,12 +8,12 @@
 Summary:	Math::Business::BlackScholes - Black-Scholes option price model functions
 Summary(pl):	Math::Business::BlackScholes - funkcje modelu cenowego Black-Scholes
 Name:		perl-Math-Business-BlackScholes
-Version:	0.03
-Release:	2
+Version:	0.05
+Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	2c4be410876a7ec855bd77e6f71f4f14
+# Source0-md5:	26a43f551e85da0401af0c03d1ffbe70
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Math-CDF >= 0.1
 BuildRequires:	rpm-perlprov >= 4.1-13
