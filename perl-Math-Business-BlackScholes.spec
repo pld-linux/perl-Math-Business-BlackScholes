@@ -3,8 +3,8 @@
 %bcond_without tests # do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	Business-BlackScholes
+%define		pdir	Math
+%define		pnam	Business-BlackScholes
 Summary:	Math::Business::BlackScholes - Black-Scholes option price model functions
 Summary(pl):	Math::Business::BlackScholes - funkcje modelu cenowego Black-Scholes
 Name:		perl-Math-Business-BlackScholes
