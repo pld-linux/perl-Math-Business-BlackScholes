@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Business-BlackScholes
 Summary:	Math::Business::BlackScholes - Black-Scholes option price model functions
-Summary(pl):	Math::Business::BlackScholes - funkcje modelu cenowego Black-Scholes
+Summary(pl.UTF-8):   Math::Business::BlackScholes - funkcje modelu cenowego Black-Scholes
 Name:		perl-Math-Business-BlackScholes
 Version:	0.06
 Release:	1
@@ -25,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Math::Business::BlackScholes estimates the fair market price of a
 European stock option according to the Black-Scholes model.
 
-%description -l pl
-Math::Business::BlackScholes estymuje wolnorynkow± cenê europejskich
+%description -l pl.UTF-8
+Math::Business::BlackScholes estymuje wolnorynkowÄ… cenÄ™ europejskich
 opcji na akcje zgodnie z modelem Black-Scholes.
 
 %prep
