@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Business-BlackScholes
 Summary:	Math::Business::BlackScholes - Black-Scholes option price model functions
-Summary(pl.UTF-8):   Math::Business::BlackScholes - funkcje modelu cenowego Black-Scholes
+Summary(pl.UTF-8):	Math::Business::BlackScholes - funkcje modelu cenowego Black-Scholes
 Name:		perl-Math-Business-BlackScholes
 Version:	0.06
 Release:	1
